@@ -1,6 +1,4 @@
 export const exerciseOptions = {
-    
-
     method: 'GET',
     headers: {
         'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',

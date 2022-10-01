@@ -9,7 +9,6 @@ const HeroBanner = () => {
             sx={{
                 mt: { lg: '212px', xs: '70px' },
                 ml: { sm: '50px' }
-
             }}
             position='relative'
             p="20px"
@@ -20,9 +19,7 @@ const HeroBanner = () => {
                 fontSize="26px"
 
                 sx={{
-                    mt: { lg: '-100px'},
-                   
-    
+                    mt: { lg: '-100px' },
                 }}
             >
                 Fitness Club
@@ -45,11 +42,12 @@ const HeroBanner = () => {
 
             <Button
                 variant='contained'
-              
+
                 href="#exercises"
 
                 sx={{
-                    backgroundColor: '#FF2625' 
+                    backgroundColor: '#FF2625',
+                    p:'10px'
                 }}
             >Explore Exercises</Button>
 
@@ -59,7 +57,7 @@ const HeroBanner = () => {
                 sx={{
                     opacity: 0.1,
                     display: { lg: 'block', xs: 'none' },
-                    padding:'10px'
+                    padding: '10px'
                 }}
                 fontSize='200px'
             >
